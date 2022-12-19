@@ -1,0 +1,73 @@
+.modal-background {
+  position: fixed;
+  bottom: -150px;
+  background-color: black;
+  opacity: 70%;
+  z-index: 1;
+  cursor: pointer;
+  width: 1500px;
+  height: 1500px;
+}
+
+.aaa {
+  font-size: xx-large;
+  color: burlywood;
+  background-color: green;
+}
+.btn-profile {
+  width: 50px;
+  height: 40px;
+
+  color: rgb(0, 0, 0);
+  list-style: none;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.modal-container {
+  position: fixed;
+  left: 500px;
+  /* bottom: -100px; */
+  background-color: #ddd;
+  /* background-image: linear-gradient(0deg, #424242, rgb(227, 227, 227)); */
+  border-radius: 1.2rem;
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+}
+.leaflet-container {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  z-index: 2;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 0.5rem;
+  width: 400px;
+  height: 400px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+}
+.title-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: x-large;
+}
+.x-btn {
+  /* background-color: red; */
+  border: none;
+  outline: none;
+  position: relative;
+  left: 300px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+}
