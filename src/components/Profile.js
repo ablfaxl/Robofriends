@@ -1,8 +1,5 @@
 // import dataRobo from "./dataRobo";
 import {
-  BrowserRouter,
-  Routes,
-  Route,
   useParams,
   Link,
 } from "react-router-dom";
@@ -11,7 +8,6 @@ import { useEffect, useState } from "react";
 
 function Profile({ profile }) {
   const { id } = useParams();
-  //   console.log(id);
   const [profileRobo, setProfileRobo] = useState("");
   const [loading, setLoading] = useState(true);
   //   const roboProfile = profileRobo.find((item) => item.id == id);
@@ -23,7 +19,6 @@ function Profile({ profile }) {
   }, []);
   console.log(profileRobo);
 
-  //   console.log(roboProfile);
   if (loading) return <div>Loading...</div>;
 
   return (

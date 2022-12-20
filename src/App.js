@@ -1,11 +1,9 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-// import dataRobo from "./dataRobo";
-import Modal from "./Modal.js";
-import Profile from "./Profile";
+import Modal from "./components/Modal.js";
+import Profile from "./components/Profile";
 
-// import { Map, Marker, Popup, TileLayer } from "react-leaflet";
-// rfec
+
 
 function App() {
   const [dataRobo, setdatarobo] = useState([]);
@@ -14,7 +12,6 @@ function App() {
   const [list, setList] = useState();
   const [profile, setProfile] = useState();
   // console.log(openModal);
-  // {list && <Profile profile={profile} />}
   // const showRobo =
 
   useEffect(() => {

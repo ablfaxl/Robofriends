@@ -1,4 +1,4 @@
-import dataRobo from "./dataRobo";
+import dataRobo from "../data/dataRobo";
 import {
   Map,
   Marker,
@@ -37,7 +37,7 @@ function Modal({ setOpenModal, list }) {
             />
             <Marker position={findName.address.geo}>
               <Popup>
-                Look great ;/ <br /> You are here
+                Look great ;) <br /> You are here
               </Popup>
             </Marker>
           </MapContainer>
@@ -52,14 +52,4 @@ function Modal({ setOpenModal, list }) {
 }
 
 export default Modal;
-//https://unpkg.com/leaflet@1.8.0/dist/images/marker-icon-2x.png
-//<div className="title">{findName.name} </div>
-// <div className="title-1">{findName.email}</div>
-// <button
-//   className="x-btn"
-//   onClick={() => {
-//     setOpenModal(false);
-//   }}
-// >
-//   X
-// </button>
+

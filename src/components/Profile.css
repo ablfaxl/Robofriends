@@ -44,7 +44,11 @@
   cursor: pointer;
   color: aliceblue;
   position: relative;
-  top: 400px;
-  right: 550px;
-  font-size: 28px;
+  bottom: 300px;
+  right: 700px;
+  text-decoration: none;
+  font-size: 35px;
+}
+.back-btn:hover{
+  color: tomato;
 }

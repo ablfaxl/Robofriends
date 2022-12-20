@@ -4,9 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "leaflet/dist/leaflet.css";
-import Modal from "./Modal";
+import Modal from "./components/Modal";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Profile from "./Profile";
+import Profile from "./components/Profile";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
